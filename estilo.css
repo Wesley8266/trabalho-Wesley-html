@@ -1,7 +1,17 @@
-nav{
+.menu{
+    background-color: rgb(7, 146, 189);
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     margin-right: 50px;
-    
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    gap: 20px;
+}
+.logo{
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
