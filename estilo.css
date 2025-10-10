@@ -15,3 +15,12 @@
     top: 10px;
     left: 10px;
 }
+.fliper1{
+    width: 500px;
+}
+.fliper2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
