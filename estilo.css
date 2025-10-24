@@ -1,0 +1,38 @@
+.menu{
+    background-color: rgba(7, 104, 4, 0.856);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 50px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    gap: 20px;
+}
+
+.logo {
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.lis {
+    color: rgb(0, 0, 0);
+}
+.lis:hover {
+    color: rgb(39, 158, 74);
+    text-decoration: none;
+}
+body{
+    background-image: url(fundo.png);
+}
