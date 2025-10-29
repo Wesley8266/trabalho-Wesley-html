@@ -1,6 +1,5 @@
-
-.menu{
-    background-color: rgb(6, 110, 15);
+.menu {
+    background-color: rgb(6, 110, 20);
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -27,9 +26,20 @@ a:hover {
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
-.lis{
+
+.lis {
     list-style-type: none;
 }
-body{
-    background-image: url(fundo_site.png);
+
+body {
+    background-image: url(img_fundo.png);
+}
+
+img {
+    display: flex;
+    justify-content: center;
+
+}
+p,h3,.lis{
+    color: aliceblue;
 }
