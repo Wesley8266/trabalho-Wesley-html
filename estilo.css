@@ -27,10 +27,6 @@ a:hover {
     text-decoration: none;
 }
 
-.lis {
-    list-style-type: none;
-}
-
 body {
     background-image: url(img_fundo.png);
 }
@@ -42,4 +38,8 @@ img {
 }
 p,h3,.lis{
     color: aliceblue;
+}
+.jogos{
+    list-style-type: none;
+    display: flex;
 }
