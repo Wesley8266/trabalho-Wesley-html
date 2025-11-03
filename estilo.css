@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
 }
@@ -24,12 +24,12 @@
 }
 
 a {
-    color: azure;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
 a:hover {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -42,12 +42,16 @@ img {
     justify-content: center;
 
 }
-p,h3,.lis{
+
+p,
+h3,
+h1
+.lis {
     color: aliceblue;
 }
-.jogos{
+
+.jogos {
     list-style-type: none;
     display: inline-block;
-    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
