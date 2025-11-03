@@ -47,5 +47,7 @@ p,h3,.lis{
 }
 .jogos{
     list-style-type: none;
-    display: flex;
+    display: inline-block;
+    flex-wrap: wrap;
 }
+
