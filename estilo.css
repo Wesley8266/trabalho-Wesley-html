@@ -59,3 +59,9 @@ h1{
     flex-direction:row;
     align-items: center;
 }
+.fliperama{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
