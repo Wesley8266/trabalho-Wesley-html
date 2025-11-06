@@ -40,15 +40,15 @@ body {
 img {
     display: flex;
     justify-content: center;
+    align-items: center;
 
 }
 
-p,
-h3,
-h1,
-h2,
-.lis {
+p,h3,h1,h2,.lis{
     color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .jogos {
@@ -56,11 +56,7 @@ h2,
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
 }
-h1{
-    display: flex;
-    flex-direction:row;
-    align-items: center;
-}
+
 .fliperama{
   display: flex;
   justify-content: center; 
