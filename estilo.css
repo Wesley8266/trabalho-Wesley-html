@@ -37,13 +37,6 @@ body {
     background-image: url(img_fundo.png);
 }
 
-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
 p,h3,h1,h2,.lis{
     color: aliceblue;
     display: flex;
