@@ -1,38 +1,56 @@
-.menu{
-    background-color: rgba(7, 104, 4, 0.856);
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.menu {
+    background-color: rgb(19, 4, 104);
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     margin-right: 50px;
     list-style-type: none;
     margin: 0px;
-    padding: 0px;
+    padding: 30px;
     gap: 20px;
+
 }
 
 .logo {
-    width: 50px;
+    width: 100px;
     position: absolute;
     top: 10px;
     left: 10px;
 }
 
 a {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 a:hover {
-    color: rgb(0, 0, 0);
+    color: rgb(233, 139, 16);
     text-decoration: none;
 }
-.lis {
-    color: rgb(0, 0, 0);
+
+body {
+    background-image: url(img_fundo.png);
 }
-.lis:hover {
-    color: rgb(39, 158, 74);
-    text-decoration: none;
+
+p,h3,h1,h2,.lis,.Pongue,.PacMan,.tetris,.space_invaders{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-body{
-    background-image: url(fundo.png);
+.jogos {
+    list-style-type: none;
+    display: inline-block;
+    font-family: sans-serif;
+}
+
+.fliperama{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
 }
