@@ -45,7 +45,10 @@ p,h3,h1,h2,.lis,.Pongue,.PacMan,.tetris,.space_invaders{
 }
 .jogos {
     list-style-type: none;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     font-family: sans-serif;
 }
 
