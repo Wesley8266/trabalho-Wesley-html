@@ -35,11 +35,9 @@ a:hover {
 
 body {
     background-image: url(fundo.png);
-    /* background-repeat: no-repeat;
-    background-size: cover; */
 }
 
-p,h3,h1,h2,.lis,.Pongue,.PacMan,.tetris,.space_invaders{
+p,h3,h1,h2,.lis,.Pongue,.PacMan,.tetris,.space_invaders,.jogos2{
     color: aliceblue;
     display: flex;
     flex-direction: column;
