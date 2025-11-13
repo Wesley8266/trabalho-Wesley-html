@@ -37,12 +37,28 @@ body {
     background-image: url(fundo.png);
 }
 
-p,h3,h1,h2,.lis,.Pongue,.PacMan,.tetris,.space_invaders,.jogos2{
+p,h3,h1,h2,.lis,.Pongue,.PacMan,.tetris,.space_invaders{
     color: aliceblue;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+.pagina1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20%;
+}
+.botao{
+    background-color: orange;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .fliper{
     color: aliceblue;
     display: flex;
