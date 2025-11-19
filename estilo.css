@@ -28,18 +28,17 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+.menu a:hover {
     color: rgb(233, 139, 16);
     text-decoration: none;
 }
-
+/* corpo */
 body {
     background-image: url(fundo.png);
 }
 
-p,h3,h1,h2,.lis,.Pongue,.PacMan,.tetris,.space_invaders{
-    font-family: sans-serif;
-    color: rgb(255, 255, 255);
+.jogos,p,h3,h1,h2{
+    color: aliceblue;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,14 +83,6 @@ p,h3,h1,h2,.lis,.Pongue,.PacMan,.tetris,.space_invaders{
     text-align: center;
     list-style-type: none;
 }
-
-.parte2{
-    position: absolute;
-    background-image: url(fundo\ do\ site.png);
-    background-size: 200px 100px;
-}
-
-
 .jogos {
     list-style-type: none;
     display: flex;
@@ -105,4 +96,18 @@ p,h3,h1,h2,.lis,.Pongue,.PacMan,.tetris,.space_invaders{
   display: flex;
   justify-content: center; 
   align-items: center;
+}
+
+p{
+    margin-bottom: 50px;
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-right: 1500px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+
 }
